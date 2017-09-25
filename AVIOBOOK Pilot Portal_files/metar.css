@@ -1,0 +1,118 @@
+#map_canvas .weatherresult {
+    color: #999;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.wcc {
+    display: inline;
+}
+
+.wccnodata, .wccnoparse {
+    color: cyan;
+}
+
+.wccnone {
+}
+
+.wccwarn {
+    color: red;
+}
+.wccexp {
+    color: red;
+}
+.wccinterval,
+.wcctimeout,
+.wcccaut {
+    color: #ED7A27;
+}
+
+.wccatt {
+    color: yellow;
+}
+
+.metarWarning {
+    color: red;
+    font-weight: bolder;
+}
+
+#map_canvas .header {
+    color: #999;
+}
+#map_canvas .waypoint {
+    color: #999;
+}
+.airport .icao, .airport .full {
+    line-height: 12px;
+}
+.highestWarninglevel {
+    float: left;
+    width: 35px;
+}
+.weather {
+    clear: both;
+}
+.weather h2 + h3 {
+	margin-top: 0;
+}
+.weather h3 {
+	margin-top: 1em;
+}
+.weather .type {
+    color: #92CAE4;
+    font-weight: bold;
+    display: inline;
+}
+.weather .inline {
+    color: #999;
+    display: inline;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    margin-right: 15px;
+}
+
+.leaflet-popup-content{
+    color:black;
+}
+
+label {
+    padding: 0;
+    text-align: left;
+    color: #000;
+    float: none;
+    width: 80px;
+}
+
+div.leaflet-top.leaflet-left {
+    background-color: #333;
+    border-top: #fff solid 5px;
+    border-right: #fff solid 5px;
+    border-bottom: #fff solid 5px;
+
+    top: 35%;
+    filter:alpha(opacity=60);
+    opacity:0.6;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    width: 80px;
+}
+
+div.leaflet-control-zoom.leaflet-control {
+    margin-left: 30%;
+}
+
+div.leaflet-buttons-control-button {
+    cursor: pointer;
+}

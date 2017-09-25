@@ -1,0 +1,17 @@
+.page.notams .column-age {
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.page.notams .icao-label {
+    text-align: center;
+}
+
+.page.notams .rawnotam-text {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.page.notams .close-button {
+    text-align: center;
+}
